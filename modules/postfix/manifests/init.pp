@@ -1,3 +1,3 @@
-class apache{
+class postfix{
     package{ 'postfix': ensure => installed }
 }
