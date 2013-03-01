@@ -1,3 +1,3 @@
 class apache{
-    package{ 'apache': ensure => installed }
+    package{ 'httpd': ensure => installed }
 }
